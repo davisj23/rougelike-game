@@ -8,6 +8,8 @@ public:()
 
 	int attack();
 
+	int Player::takeDamage(int attack);
+
 	//setters
 	void setPosition(int x, int y);
 
@@ -16,12 +18,13 @@ public:()
 	//Getters
 	void getPosition(int &x, int &y);
 
+
 private:
 	//Properties
 	int _level;
 	int _health;
 	int _attack;
-	int _defence;
+	int _defense;
 	int _experience;
 
 	//Position

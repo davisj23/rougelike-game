@@ -1,10 +1,7 @@
 ﻿  Level.cpp
 c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(33): warning C4018: '<' : signed/unsigned mismatch
 c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(34): warning C4018: '<' : signed/unsigned mismatch
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(64): warning C4018: '<' : signed/unsigned mismatch
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(78): warning C4101: 'moveTile' : unreferenced local variable
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(145): warning C4018: '<' : signed/unsigned mismatch
-  Enemy.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\enemy.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(83): warning C4101: 'moveTile' : unreferenced local variable
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(155): warning C4018: '<' : signed/unsigned mismatch
   ascii rougelike.vcxproj -> C:\Users\jdcoo\Documents\Visual Studio 2013\Projects\ascii rougelike\Debug\ascii rougelike.exe

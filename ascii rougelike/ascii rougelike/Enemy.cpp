@@ -52,3 +52,20 @@ int Enemy::takeDamage(int attack) {
 	}
 	return 0;
 }
+
+char Enemy::getMove(int playerX, int playerY) {
+
+	int distance;
+	int dx; //diffrence in x
+	int dy; //diffrence in y
+
+
+
+	distance = abs(_x - playerX) + abs(_y - playerY);
+
+	if (distance <= 5) {
+
+
+	}
+
+}

@@ -15,6 +15,8 @@ public:
 	void print();
 
 	void movePlayer(char input, Player &player);
+	void updateEnemies(Player &player);
+
 	//Getters
 	char getTile(int x, int y);
 	//Setters

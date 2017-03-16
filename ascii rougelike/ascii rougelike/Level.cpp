@@ -39,19 +39,24 @@ void Level::load(string fileName, Player &player) {
 				player.setPosition(j,i);
 				break;
 			case 'S': //snake
-				_enemies.push_back(Enemy("Snake", tile, 1, 1, 1, 10, 10));
+				_enemies.push_back(Enemy("Snake", tile, 1, 1, 1, 10, 50));
+				_enemies.back().setPosition(j, i);
 				break;
 			case 'g':
-				_enemies.push_back(Enemy("goblin", tile, 2, 10, 5, 35, 50));
+				_enemies.push_back(Enemy("goblin", tile, 2, 10, 5, 35, 150));
+				_enemies.back().setPosition(j, i);
 				break;
 			case 'O': //snake
 				_enemies.push_back(Enemy("Ogre", tile, 4, 20, 20, 200, 500));
+				_enemies.back().setPosition(j, i);
 				break;
 			case 'D':
 				_enemies.push_back(Enemy("Dragon", tile, 100, 2000, 2000, 2000, 50000000));
+				_enemies.back().setPosition(j, i);
 				break;
 			case 'B':
 				_enemies.push_back(Enemy("Bandit", tile, 3, 15, 10, 100, 250));
+				_enemies.back().setPosition(j, i);
 			}
 			}
 		}
@@ -107,6 +112,16 @@ void Level::movePlayer(char input, Player &player) {
 
 }
 
+void Level::updateEnemies(Player &player) {
+	for (int i = 0; i < _enemies.size(); i++) {
+
+	}
+
+}
+
+
+
+
 char Level::getTile(int x, int y) {
 	return _levelData[y][x];
 }
@@ -139,33 +154,50 @@ void Level::battleMoster(Player &player, int targetX, int targetY) {
 
 	int enemyX;
 	int enemyY;
+	int playerX;
+	int playerY;
 	int attackRoll;
 	int attackResult;
+	string enemeyName;
+
+	player.getPosition(playerX, playerY);
 
 	for (int i = 0; i < _enemies.size(); i++) {
 
 		_enemies[i].getPosition(enemyX, enemyY);
+		enemeyName = _enemies[i].getName();
 
 		if (targetX == enemyX && targetY == enemyY){
 
 			//Fight
 			attackRoll = player.attack();
-			printf("Player attacked moster with a roll of %d", attackRoll);
+			printf("\nPlayer attacked %s with a roll of %d\n", enemeyName.c_str(), attackRoll);
 			attackResult = _enemies[i].takeDamage(attackRoll);
 
 			if (attackResult != 0) {
+				setTile(targetX, targetY, '.');
+				print();
 				printf("Monster died!\n");
 					system("PAUSE");
 				player.addExperience(attackResult);
 
-				setTile(targetX, targetY, '.');
 				return;
 
 			}
-			//Monster trun
+			//Monster trun! if the Monster survies this will roll the monsters trun so it can deal damage to the player
+			attackRoll = _enemies[i].attack();
+			printf("%s attacked player with a roll of %d\n", enemeyName.c_str(), attackRoll);
+			attackResult = player.takeDamage(attackRoll);
 
+			if (attackResult != 0) {
+				setTile(playerX, playerY, 'X');
+				print();
+				printf("You died!\n");
+				system("PAUSE");
 
-
+				exit(0);
+			}
+			system("PAUSE");
 			return;
 
 		}

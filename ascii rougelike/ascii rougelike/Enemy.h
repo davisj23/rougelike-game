@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
+
 using namespace std;
+
 class Enemy
 {
 public:
@@ -11,9 +13,13 @@ public:
 
 	//Getters
 	void getPosition(int &x, int &y);
+	string getName() { return _name; }
 
 	int attack();
 	int takeDamage(int attack);
+
+	// Gets AI move command
+	char getMove(int playerX, int playerY);
 
 private:
 	string _name;
@@ -24,6 +30,7 @@ private:
 	int _defense;
 	int _health;
 	int _experienceValue;
+	// add in attack range for AI
 
 	/*vector <Items> possibleDrops
 	this is extra code that i plan to add in a bit. will contain a list of items that monsters could drop
