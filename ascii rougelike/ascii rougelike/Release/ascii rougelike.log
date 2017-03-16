@@ -1,0 +1,5 @@
+﻿  Level.cpp
+Level.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+  Generating code
+  Finished generating code
+  ascii rougelike.vcxproj -> C:\Users\jdcoo\Documents\Visual Studio 2013\Projects\ascii rougelike\Release\ascii rougelike.exe
