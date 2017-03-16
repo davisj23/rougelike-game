@@ -6,11 +6,15 @@ public:()
 	Player();
 	void init(int level, int health, int attack, int defense, int experience);
 
+	int attack();
+
 	//setters
 	void setPosition(int x, int y);
 
+	void addExperience(int experience);
+
 	//Getters
-	void getposition(int &x, int &y);
+	void getPosition(int &x, int &y);
 
 private:
 	//Properties

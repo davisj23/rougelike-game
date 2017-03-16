@@ -1,12 +1,10 @@
-﻿  player.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\player.cpp(4): error C2600: 'Player::Player' : cannot define a compiler-generated special member function (must be declared in the class first)
-  main.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\main.cpp(6): fatal error C1083: Cannot open include file: 'GameSystem.h': No such file or directory
-  level.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(30): error C2761: 'void level::print(void)' : member function redeclaration not allowed
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(30): error C2447: '{' : missing function header (old-style formal list?)
-  GameSystem.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\gamesystem.h(17): error C2146: syntax error : missing ';' before identifier 'Player'
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\gamesystem.h(18): error C2143: syntax error : missing ';' before '}'
+﻿  Level.cpp
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(78): warning C4101: 'moveTile' : unreferenced local variable
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(145): warning C4018: '<' : signed/unsigned mismatch
+  Enemy.cpp
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\enemy.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
+  ascii rougelike.vcxproj -> C:\Users\jdcoo\Documents\Visual Studio 2013\Projects\ascii rougelike\Debug\ascii rougelike.exe
