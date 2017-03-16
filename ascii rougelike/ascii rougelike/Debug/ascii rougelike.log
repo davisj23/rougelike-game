@@ -1,12 +1,24 @@
-﻿  player.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\player.cpp(4): error C2600: 'Player::Player' : cannot define a compiler-generated special member function (must be declared in the class first)
+﻿  Level.cpp
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(83): warning C4101: 'moveTile' : unreferenced local variable
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(185): error C2065: '_enemies' : undeclared identifier
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(185): error C2228: left of '.getPosition' must have class/struct/union
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(189): error C3861: 'getTile': identifier not found
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(193): error C2065: '_enemies' : undeclared identifier
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(193): error C2228: left of '.setPosition' must have class/struct/union
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(194): error C3861: 'setTile': identifier not found
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(195): error C2065: '_enemies' : undeclared identifier
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(195): error C2228: left of '.getTile' must have class/struct/union
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(195): error C3861: 'setTile': identifier not found
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+  Enemy.cpp
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\enemy.cpp(33): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\enemy.cpp(57): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
   main.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\main.cpp(6): fatal error C1083: Cannot open include file: 'GameSystem.h': No such file or directory
-  level.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(30): error C2761: 'void level::print(void)' : member function redeclaration not allowed
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\level.cpp(30): error C2447: '{' : missing function header (old-style formal list?)
   GameSystem.cpp
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\gamesystem.h(17): error C2146: syntax error : missing ';' before identifier 'Player'
-c:\users\jdcoo\documents\visual studio 2013\projects\ascii rougelike\ascii rougelike\gamesystem.h(18): error C2143: syntax error : missing ';' before '}'
   Generating Code...
