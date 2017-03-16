@@ -2,7 +2,8 @@
 
 class Player
 {
-	public();
+public:()
+	Player();
 	void init(int level, int health, int attack, int defense, int experience);
 
 	//setters
@@ -14,7 +15,7 @@ class Player
 private:
 	//Properties
 	int _level;
-	int _health:
+	int _health;
 	int _attack;
 	int _defence;
 	int _experience;
