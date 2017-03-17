@@ -1,0 +1,8 @@
+﻿  Engine.cpp
+c:\users\jdcoo\documents\visual studio 2013\projects\rougelike-game-master\ascii rougelike\ascii rougelike\engine.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\rougelike-game-master\ascii rougelike\ascii rougelike\engine.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\rougelike-game-master\ascii rougelike\ascii rougelike\engine.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\rougelike-game-master\ascii rougelike\ascii rougelike\engine.cpp(86): warning C4101: 'moveTile' : unreferenced local variable
+c:\users\jdcoo\documents\visual studio 2013\projects\rougelike-game-master\ascii rougelike\ascii rougelike\engine.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+c:\users\jdcoo\documents\visual studio 2013\projects\rougelike-game-master\ascii rougelike\ascii rougelike\engine.cpp(237): warning C4018: '<' : signed/unsigned mismatch
+  ascii rougelike.vcxproj -> C:\Users\jdcoo\Documents\Visual Studio 2013\Projects\rougelike-game-master\ascii rougelike\Debug\ascii rougelike.exe

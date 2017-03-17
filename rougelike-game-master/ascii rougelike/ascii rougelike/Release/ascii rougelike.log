@@ -1,0 +1,9 @@
+﻿  Level.cpp
+Level.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+Level.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+Level.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+Level.cpp(83): warning C4129: 'N' : unrecognized character escape sequence
+Level.cpp(63): warning C4101: 'moveTile' : unreferenced local variable
+  Generating code
+  Finished generating code
+  ascii rougelike.vcxproj -> C:\Users\jdcoo\Documents\Visual Studio 2013\Projects\ascii rougelike\Release\ascii rougelike.exe
