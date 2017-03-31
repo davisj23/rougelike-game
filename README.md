@@ -1,2 +1,2 @@
-# rougelike-game
+# rougelike
 project 2
